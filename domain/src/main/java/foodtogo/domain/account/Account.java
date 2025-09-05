@@ -18,12 +18,15 @@ import lombok.experimental.SuperBuilder;
 @Table
 public class Account extends AbstractEntity implements AccountInterface {
 
-
     @Column(unique = true)
+    @NotNull
     private String email;
 
     @NotNull
     private String username;
+
+    @NotNull
+    private AccountRole role;
 
     @Override
     public String getEmail() {

@@ -2,12 +2,12 @@ package foodtogo.domain;
 
 import jakarta.persistence.*;
 import jakarta.validation.constraints.NotNull;
+import lombok.Builder;
 import lombok.Getter;
 import lombok.NoArgsConstructor;
 import lombok.Setter;
 import lombok.experimental.SuperBuilder;
 
-import java.time.ZonedDateTime;
 import java.util.Objects;
 
 @SuperBuilder
@@ -23,6 +23,7 @@ public class AbstractEntity implements EntityReference {
     @NotNull
     private Long id;
 
+    @Builder.Default
     private DbStatus dbStatus = DbStatus.ACTIVE;
 
     @Override
