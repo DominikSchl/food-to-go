@@ -1,0 +1,12 @@
+C:\Users\domin\OneDrive\MATSE\FH-Aachen\Semester4\LargeScaleIt\food-to-go\domain\src\main\java\foodtogo\cqrs\Command.java
+C:\Users\domin\OneDrive\MATSE\FH-Aachen\Semester4\LargeScaleIt\food-to-go\domain\src\main\java\foodtogo\cqrs\CommandBus.java
+C:\Users\domin\OneDrive\MATSE\FH-Aachen\Semester4\LargeScaleIt\food-to-go\domain\src\main\java\foodtogo\cqrs\CommandResponse.java
+C:\Users\domin\OneDrive\MATSE\FH-Aachen\Semester4\LargeScaleIt\food-to-go\domain\src\main\java\foodtogo\cqrs\DomainEvent.java
+C:\Users\domin\OneDrive\MATSE\FH-Aachen\Semester4\LargeScaleIt\food-to-go\domain\src\main\java\foodtogo\cqrs\DomainEventBus.java
+C:\Users\domin\OneDrive\MATSE\FH-Aachen\Semester4\LargeScaleIt\food-to-go\domain\src\main\java\foodtogo\domain\AbstractEntity.java
+C:\Users\domin\OneDrive\MATSE\FH-Aachen\Semester4\LargeScaleIt\food-to-go\domain\src\main\java\foodtogo\domain\account\Account.java
+C:\Users\domin\OneDrive\MATSE\FH-Aachen\Semester4\LargeScaleIt\food-to-go\domain\src\main\java\foodtogo\domain\account\AccountInterface.java
+C:\Users\domin\OneDrive\MATSE\FH-Aachen\Semester4\LargeScaleIt\food-to-go\domain\src\main\java\foodtogo\domain\account\AccountRepository.java
+C:\Users\domin\OneDrive\MATSE\FH-Aachen\Semester4\LargeScaleIt\food-to-go\domain\src\main\java\foodtogo\domain\DbStatus.java
+C:\Users\domin\OneDrive\MATSE\FH-Aachen\Semester4\LargeScaleIt\food-to-go\domain\src\main\java\foodtogo\domain\DomainConfiguration.java
+C:\Users\domin\OneDrive\MATSE\FH-Aachen\Semester4\LargeScaleIt\food-to-go\domain\src\main\java\foodtogo\domain\EntityReference.java

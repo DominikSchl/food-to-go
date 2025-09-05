@@ -1,0 +1,5 @@
+foodtogo\application\requestcontext\tenant\Tenant.class
+foodtogo\application\requestcontext\RequestContext.class
+foodtogo\application\requestcontext\RequestContextManager.class
+foodtogo\application\TransactionHelper.class
+foodtogo\application\Application.class

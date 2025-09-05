@@ -1,0 +1,3 @@
+foodtogo\application\BaseIntegrationTest.class
+foodtogo\application\api\VerifyApiTest.class
+foodtogo\application\TestApplication.class

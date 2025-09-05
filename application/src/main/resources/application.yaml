@@ -1,0 +1,38 @@
+spring:
+  transaction:
+    default-timeout: 120
+  messages:
+    basename: messages
+    fallback-to-system-locale: false
+    use-code-as-default-message: true
+  application:
+    name: food-to-go
+  datasource:
+    url: jdbc:postgresql://localhost:15432/food-to-go
+    username: postgres
+    password: postgres
+    driver-class-name: org.postgresql.Driver
+    hikari:
+      auto-commit: false
+  jpa:
+    properties:
+      hibernate:
+        connection:
+          provider-disables-autocommit: true
+        dialect: org.hibernate.dialect.PostgreSQLDialect
+      open-in-view: true
+    hibernate:
+        ddl-auto: none
+  liquibase:
+    enabled: true
+    change-log: classpath:/db/changelog/db.changelog-master.xml
+
+server:
+  compression:
+    enabled: true
+    mime-types: application/json
+
+logging:
+  level:
+    io:
+      openTelemetry: OFF

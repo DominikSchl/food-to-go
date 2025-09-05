@@ -1,0 +1,12 @@
+foodtogo\cqrs\CommandBus.class
+foodtogo\cqrs\CommandResponse.class
+foodtogo\domain\account\AccountRepository.class
+foodtogo\cqrs\DomainEventBus.class
+foodtogo\domain\account\Account.class
+foodtogo\domain\DbStatus.class
+foodtogo\domain\AbstractEntity.class
+foodtogo\domain\account\AccountInterface.class
+foodtogo\cqrs\Command.class
+foodtogo\domain\DomainConfiguration.class
+foodtogo\domain\EntityReference.class
+foodtogo\cqrs\DomainEvent.class
